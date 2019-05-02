@@ -28,6 +28,12 @@ Grâce à Dossiersco, la gestion des inscriptions est nettement simplifiée.
 
 L’outil est conçu pour permettre une prise en main  rapide et intuitive.
 
+## Envie de tester DossierSCO ? Découvrez notre environnement de démonstration
+
+Expérimentez en toute quiétude dans un environnement “bac à sable” qui vous permet d’explorer les fonctionnalités avec des données fictives (supprimées et recréées régulièrement).
+Vous pourrez ainsi voir les deux côtés de DossierSCO : les interfaces “agents” et “familles”.
+[L'environnement de démonstration est ici](http://demo.dossiersco.fr/) et il existe également un [article-tutoriel](https://blog.dossiersco.fr/demo/2019/04/11/environnement-de-demo.html) si besoin.
+
 ## La méthode Dossiersco, au plus près des usagers
 Dossiersco a été conçu par des personnels d'établissements scolaires, à l’intersection de bonnes pratiques observées dans différentes académies, grâce à la communauté [OpenAcadémie](https://openacademie.beta.gouv.fr/).
 
