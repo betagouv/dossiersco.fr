@@ -44,10 +44,10 @@ Les appréciations, très nombreuses, parlent d'elles-même : « bien », « pra
 
 La conception de ce service est pilotée par Pierre de Maulmont, intrapreneur et intendant du Lycée Arago (Paris); en collaboration avec une équipe de l'Incubateur des services publics numériques.
 
-Vous pouvez suivre semaine après semaine la vie de l'équipe et les modifications apportées au service DossierSCO en lisant <a href="https://github.com/betagouv/dossiersco/blob/production/doc/journal.md" target="_blank">notre journal</a>.
+Vous pouvez suivre semaine après semaine la vie de l'équipe et les modifications apportées au service DossierSCO en lisant <a href="https://gitlab.com/dossiersco/dossiersco/blob/master/doc/journal.md" target="_blank">notre journal</a>.
 
 Par souci de transparence, vous pouvez consulter [les statistiques d'usage](https://dossiersco.fr/stats) de DossierSCO.
 
-Si vous souhaitez contribuer au développement du service, le code est ouvert et nous accueillerons avec grand plaisir vos <a href="https://github.com/betagouv/dossiersco/" target="_blank">Pull Requests</a>
+Si vous souhaitez contribuer au développement du service, le code est ouvert et nous accueillerons avec grand plaisir vos <a href="https://gitlab.com/dossiersco/dossiersco/" target="_blank">demandes de fusion (Pull Request)</a>
 
 Pour toute question, n'hésitez pas à nous envoyer un mail à <a href="mailto:equipe@dossiersco.fr" target="_blank">equipe@dossiersco.fr</a>
