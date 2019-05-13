@@ -21,10 +21,10 @@ Veuillez nous envoyer une description de votre demande [par email](mailto:equipe
 #### Comment peut-on ajouter une nouvelle option dans les MEF ?
 Vous pouvez configurer une nouvelle option en vous rendant sur la page « Carte des formations ». Sur la droite, vous verrez un bouton « Nouveau MEF ».
 
-#### Existe-t-il un moyen d'attribuer en masse un MEF ?
+#### Y a-t-il un moyen de préciser que certaines options sont incompatibles entre elles ?
 C'est une fonctionnalité qui nous a été demandée et qui est priorisée dans nos développements à venir.
 
-#### Y a-t-il un moyen de préciser que certaines options sont incompatibles entre elles ?
+#### Existe-t-il un moyen d'attribuer en masse un MEF ?
 Pas pour le moment, mais c'est une des demandes que nous prenons en compte pour les nouvelles fonctionnalités à venir.
 
 #### J'ai des options de langues rares. Comment faire ?
