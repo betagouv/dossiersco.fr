@@ -10,7 +10,7 @@ Vous avez des questions qui ne figurent pas ci-dessous ? N'hésitez pas à [cont
 ## Pouvez-vous m'indiquer la procédure d’inscription ?
 Nous pouvons faire mieux que ça ! Nous vous avons concocté un [tutoriel video](https://blog.dossiersco.fr/tutoriel/) qui explique comment s'inscrire, et comment configurer ensuite sa campagne d'inscription.
 
-## "Comment donner l'information aux parents ?"
+## Comment donner l'information aux parents que les réinscriptions sont ouvertes ?
 Une fois votre base élèves importée, vous pouvez télécharger les convocations (Suvi des inscriptions -> Convocations). Vous obtiendrez un fichier pdf par classe, chaque fichier pdf contenant une page pour chaque élève à remettre aux parents. Chaque convocation contient les identifiants permettant aux familles d'accéder à DossierSCO.
 
 ## Puis-je personnaliser le questionnaire pour les familles ?
