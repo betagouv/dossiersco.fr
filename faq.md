@@ -40,9 +40,6 @@ Comme ce sont des données sensibles, nous avons choisi de garder la circulation
 #### Peut-on récupérer dans un même zip les pièces identiques déposées par les familles ?
 Oui, c'est en cours d'implémentation, cette fonctionnalité sera disponible fin juin au plus tard.
 
-## Siècle
-#### Est-ce qu'une bascule de DossierSCO vers Siècle sera possible ?
-Oui, elle a déjà été réalisée l'an dernier avec les établissements participants, cette année nous retravaillons cette fonctionnalité main dans la main avec la Direction du numérique pour l'éducation.
 
 ## Envoyer des SMS
 #### Cette fonctionnalité sera-t-elle disponible ?
@@ -56,3 +53,24 @@ DossierSCO fonctionne uniquement pour les (ré)inscriptions au collège actuelle
 
 ## Comment accompagner les familles qui ne sont pas équipées ou qui ont des difficultés d'usage d'Internet ?
 Pour les familles qui n'ont pas internet, certains établissements pilotes organisent des permanences à l'intendance durant lesquelles les familles pouvaient venir faire leur demande en ligne. 
+
+## Retour dans SIECLE
+
+#### Est-ce qu'une bascule de DossierSCO vers Siècle sera possible ?
+
+Oui, elle a déjà été réalisée l'an dernier avec les établissements participants, cette année nous retravaillons cette fonctionnalité main dans la main avec la Direction du numérique pour l'éducation.
+Nous sommes en train de développer et tester cette fonctionnalité avec plusieurs DSI académiques. A noter que l'import dans SIECLE des données saisies par les familles dans DossierSCO ne pourra se faire qu'une fois la montée pédagogique effectuée et la nomenclature validée par l'établissement.
+
+#### Nous sommes étonnés de voir dans DossierSCO les intitulés _Responsable légal 1_ et _Responsable légal 2_ alors que les nouveautés SIECLE ne font plus ce distingo. Comment va se passer le retour dans SIECLE ?
+
+
+Nous avons délibérément choisi de garder dans DossierSCO les intitulés _Responsable légal 1_ et _Responable légal 2_ par souci de clarté pour les familles. Lors du retour dans SIECLE, le fichier généré par DossierSCO est compatible avec SIECLE. Aucune donnée ne sera perdue ou altérée.
+
+
+#### Dans SIECLE, je dois obligatoirement préciser qui paie les frais de scolarité. La question n'est pas posée dans DossierSCO. J'imagine que l'import dans SIECLE va poser un problème ?
+
+Non ! L'import SIECLE ne posera pas de problème. Nous avons délibérément choisi de construire DossierSCO en premier lieu en fonction des besoins des familles et des agents des établissements et non de le calquer sur les particularités de SIECLE. Il est apparu après de nombreux entretiens utilisateurs que la question de savoir qui paie les frais de scolarité n'était pas une information essentielle. Nous avons donc choisi d'alléger le temps de saisie des familles en ne posant pas cette question. Lors du retour dans SIECLE, le premier responsable légal sera indiqué comme étant celui ou celle qui paie les frais de scolarité.
+
+#### Dans SIECLE, je dois obligatoirement préciser un contact à appeler en cas d'urgence. C'est un champ optionnel dans DossierSCO. J'imagine que l'import dans SIECLE va poser un problème ?
+
+Non ! L'import SIECLE ne posera pas de problème. Nous avons délibérément choisi de construire DossierSCO en premier lieu en fonction des besoins des familles et des agents des établissements et non de le calquer sur les particularités de SIECLE. Il est apparu après de nombreux entretiens utilisateurs que la question de savoir qui paie les frais de scolarité n'était pas une information essentielle. Nous avons donc choisi d'alléger le temps de saisie des familles en ne posant pas cette question. Lors du retour dans SIECLE, le premier responsable légal sera indiqué comme étant celui ou celle à contacter d'urgence.
