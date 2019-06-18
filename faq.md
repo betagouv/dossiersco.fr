@@ -30,6 +30,10 @@ Pas pour le moment, mais c'est une des demandes que nous prenons en compte pour 
 #### J'ai des options de langues rares. Comment faire ?
 [Rentrez en contact avec nous](mailto:equipe@dossiersco.fr), nous pourrons discuter de votre configuration.
 
+#### Comment indiquer des élèves qui redoublent ?
+
+Pour chaque élève qui redouble, dans la liste des élèves (suivi des inscriptions), cliquez sur l'élève puis cliquez dans l'onglet à gauche Mef / options. Dans l'encadré MEF, modifiez la "Mef de destination" de chaque élève qui redouble.
+
 ## Les documents
 #### Pouvons-nous insérer des documents complémentaires ? Modifiables numériquement par les parents ?
 Vous pouvez demander les documents de votre choix, en vous rendant sur la page « Pièces attendues » et en configurant ce dont vous avez besoin. Pour le moment, les documents modifiables numériquement par les parents ne sont pas disponibles.
