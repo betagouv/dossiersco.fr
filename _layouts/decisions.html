@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+  {%- if site.decisions.size > 0 -%}
+  {% assign decisions = site.decisions | reverse %}
+  <ul>
+      {%- for decision in decisions -%}
+      <li><a href="{{ decision.url | relative_url }}"><b>{{ decision.title | escape }}</b></a></li>
+      {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</div>

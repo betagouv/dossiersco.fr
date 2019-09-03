@@ -1,0 +1,4 @@
+---
+title: Hypothèses
+layout: hypotheses
+---

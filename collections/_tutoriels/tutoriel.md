@@ -1,7 +1,5 @@
 ---
-layout: page
-title: Tutoriel
-permalink: /tutoriel/
+title: "Comment utiliser DossierSCO ?"
 ---
 
 Comment utiliser DossierSCO ? Retrouvez ici des vidéos expliquant les différentes phases de l'inscription.

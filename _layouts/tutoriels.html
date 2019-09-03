@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+  {%- if site.tutoriels.size > 0 -%}
+  <ul>
+      {%- for tuto in site.tutoriels -%}
+      <li><a href="{{ tuto.url | relative_url }}"><b>{{ tuto.title | escape }}</b></a></li>
+      {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</div>
