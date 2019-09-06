@@ -1,5 +1,7 @@
 # Champs obligatoires
 
+Pas sur que ce fichier soit vraiment pertinant. J'ai l'impression que nous pourrions discuter de champs obligatoire dans le cadre d'une fonctionnalité qui apporte de la valeur, et pas dans l'absolue comme ça.
+
 
 ## Informer l'agent des dossiers sans email
 
@@ -11,3 +13,11 @@ email manquant
 
 ---
 
+
+##  Collecter les identifiants bancaires des responsables financiers estimant bénéficier d'une bourse
+
+Je le colle aussi dans [demi-pension.md](demo-pension.md)
+
+- Solution simple : en faire une pièce attendue téléchargeable (IBAN)
+- à noter : refus du téléservice des bourses de recueillir la saisie de l'IBAN par les familles (casus belli avec Bourse.beta)
+- Action diplomatique : indiquer aux familles le lien vers le simulateur de bourse du ministère

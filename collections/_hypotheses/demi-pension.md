@@ -17,3 +17,13 @@ formulaire existe dans la version d'Etienne ANDRE du DossierSCO Access.
 
 A voir, peut-être qu'utiliser le système de régime de demi-pension proposé dans le fichier XML (structure ou nomenclature ?) de SIECLE serait suffisant.
 
+---
+
+##  Collecter les identifiants bancaires des responsables financiers estimant bénéficier d'une bourse
+
+_Je le pose ici vis à vis de la demi-pension, bien que ça parle de bourse._
+Je le colle aussi dans [champs_obligatoires.md](champs_obligatoires.md)
+
+- Solution simple : en faire une pièce attendue téléchargeable (IBAN)
+- à noter : refus du téléservice des bourses de recueillir la saisie de l'IBAN par les familles (casus belli avec Bourse.beta)
+- Action diplomatique : indiquer aux familles le lien vers le simulateur de bourse du ministère
