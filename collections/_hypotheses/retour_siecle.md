@@ -18,8 +18,6 @@ Après le retour d'un établissement dans SIECLE :
 Rencontre demandé pour lister les cas, et regarder ensuite comment progresser.
 
 
-
-
 Un autre établissement dans l'académie de Nancy-Metz :
 
 > côté établissement, le bilan est très négatif : toute notre base SIECLE est à
@@ -34,3 +32,13 @@ Un autre établissement dans l'académie de Nancy-Metz :
 
 Rencontre prévu mardi 10 pour avoir plus de détails.
 
+---
+
+
+On 16/09/2019 16:35,
+> Encore un problème décelé aujourd’hui : l’import de dossiersco dans
+> siècle a écrasé l’établissement d’origine de nos élèves entrant en sixième.
+> Ils apparaissent tous comme étant originaires (...) de notre établissement
+> (...) alors qu’on devrait avoir mention de leur école de provenance.
+
+---
