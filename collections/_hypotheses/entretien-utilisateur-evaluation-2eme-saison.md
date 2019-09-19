@@ -11,18 +11,18 @@ C'est intéressant de recolter le retour des personnes utilisants DossierSCO pou
 Dans ce cadre, il serait nécessaire de récolter des informations autour de :
 
 - Acquisition
-- Comment avez vous découvert DossierSCO ?
+  - Comment avez vous découvert DossierSCO ?
 - Activation
-- Pourquoi avez-vous décidé de l'utiliser ?
+  - Pourquoi avez-vous décidé de l'utiliser ?
 - Rétention _dans une moindre mesure_
-- Souhaitez vous l'utiliser à nouveau pour votre prochaine saison ?
+  - Souhaitez vous l'utiliser à nouveau pour votre prochaine saison ?
 - Recommandation
-- Seriez-vous prêt à nous recommander auprès du ministère ?
+  - Seriez-vous prêt à nous recommander auprès du ministère ?
 - Produit
-- Quels outils utilisiez-vous avant DossierSCO ?
-- Qu'est-ce dossiersco vous apporte par rapport au Téléservice « Fiche de renseignement » ou autre ?
-- Est-ce que DossierSCO vous a apporté de la valeur ?
-- Si oui, quelle valeur DossierSCO vous a apporté ?
+  - Quels outils utilisiez-vous avant DossierSCO ?
+  - Qu'est-ce dossiersco vous apporte par rapport au Téléservice « Fiche de renseignement » ou autre ?
+  - Est-ce que DossierSCO vous a apporté de la valeur ?
+  - Si oui, quelle valeur DossierSCO vous a apporté ?
 
 
 ## Executions
