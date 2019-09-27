@@ -42,3 +42,16 @@ On 16/09/2019 16:35,
 > (...) alors qu’on devrait avoir mention de leur école de provenance.
 
 ---
+
+[retour SIECLE] Renseigner les ID_PRV_PER de ELEVE et PERSONNE avec PERSONNE_ID
+
+Pour les représentants légaux qui existent déjà dans siecle (renseignés dans ResponsablesAvecAdresses.xml), utiliser le champs PERSONNE_ID dans ID_PRV_PER plutôt que notre identifiant interne resp_legal_id :
+
+    <PERSONNE PERSONNE_ID="XXXXXXX">
+
+Pour celles qui ne sont pas représentées dans siecle (crées dans DossierSCO), continuer à utiliser resp_legal_id.
+
+Le retour de test à l'origine de cette évolution :
+
+> 
+> ERREUR GRAVE : Veuillez faire correspondre les ID_PRV_PER de ELEVE avec les ID_PRV_PER de PERSONNE

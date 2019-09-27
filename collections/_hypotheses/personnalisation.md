@@ -25,3 +25,12 @@ C'était un autre ticket sur le gitlab. Je les fusionnent là
 > 
 > En outre, je ne sais pas ce que les autres en pensent, mais je trouve qu'il serait bien que le nom de l'établissement soit en premier et plus gros que "dossiersco", afin d'être plus facilement identifié comme un document officiel du collège (même s'il est donné en main propre aux élèves), éventuellement avec possibilité d'ajouter le logo marianne de l'établissement, comme sur les documents gemasco et mobilisco.
 
+
+## Permettre à un collège de créer un champ Case-à-cocher spécifique, comme pour les pièces justificatives
+
+Demande La Garriguette : 
+- moyen de transport utilisé par l'élève.
+- casier demandé
+
+
+
