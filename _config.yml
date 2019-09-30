@@ -1,7 +1,7 @@
-title: Le blog de DossierSCO
+title: La documentation de DossierSCO
 email: equipe@dossiersco.fr
 description: >- # this means to ignore newlines until "baseurl:"
-  Toute l'actualité de DossierSCO, le service public numérique de l'Education Nationale pour faciliter l'inscription au collège.
+  Toute la documentation et l'actualité de DossierSCO, le service public numérique de l'Education Nationale pour faciliter l'inscription au collège.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dossiersco
