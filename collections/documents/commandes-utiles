@@ -82,7 +82,7 @@ heroku pg:index_usage
 
 scalingo --app dossiersco-production env
 
-# Restore un backup de prod en demo
+## Restore un backup de prod en demo
 
 1- dans l'interface d'admin scalingo, aller dans l'appli dossiersco-production -> addons -> PostgreSQL Dashboad -> Backups
 2- downloader le backup
@@ -96,6 +96,7 @@ scalingo --app dossiersco-production env
 Créer la variable DATABASE_URL à partir de SCALINGO_POSTGRESQL_URL en remplaçant hostname et port par le tunnel 127.0.0.1:10000
 exemple : export DATABASE_URL=postgresql://dossierscoxx:passxx@127.0.0.1:10000/dossiersco_db
 
+Doc Scalingo : https://doc.scalingo.com/databases/postgresql/dump-restore
 
 
 
