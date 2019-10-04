@@ -82,8 +82,24 @@ heroku pg:index_usage
 
 scalingo --app dossiersco-production env
 
-# Colorer le terminal irb
+# Restore un backup de prod en demo
 
+1- dans l'interface d'admin scalingo, aller dans l'appli dossiersco-production -> addons -> PostgreSQL Dashboad -> Backups
+2- downloader le backup
+3- dans un terminal, configurer un tunnel comme suit : 
+  scalingo --app dossiersco-demo env | grep POSTGRESQL
+  export SCALINGO_POSTGRESQL=<valeur récupérée à la commande précédente>
+  scalingo -a dossiersco-demo db-tunnel $SCALINGO_POSTGRESQL_URL
+
+4- une fois le tunnel ouvert, ouvrir un autre terminal pour restaurer le backup de prod recupéré à l'étape 2
+5- l'url SCALINGO_POSTGRESQL en étape 3 est construite comme ci : postgresql://<username>:<password>@<hostname>:<port>/<db>
+Créer la variable DATABASE_URL à partir de SCALINGO_POSTGRESQL_URL en remplaçant hostname et port par le tunnel 127.0.0.1:10000
+exemple : export DATABASE_URL=postgresql://dossierscoxx:passxx@127.0.0.1:10000/dossiersco_db
+
+
+
+
+# Colorer le terminal irb
 require 'awesome_print'
 ap RespLegal.first
 
