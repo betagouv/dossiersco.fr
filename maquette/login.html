@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="login/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  <link rel="stylesheet" href="login/jquery_002.css">
+  <link rel="stylesheet" href="login/select2.css">
+  <link rel="stylesheet" href="login/jquery.css">
+  <link rel="stylesheet" href="login/select.css">
+  <link href="login/main.css" rel="stylesheet">
+
+  <script type="text/javascript" async="" defer="defer" src="login/piwik.js"></script><script src="login/jquery.js"></script>
+  <script src="login/popper.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  
+
+  <title>DossierSCO : l’inscription au collège</title>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="lAuOpyUobHvXsR7GiyW4mZkh7wtYYGbA44sTrxRdEbkKZ+46diw74uODWLxmcKLuin0jeK5jZsdVnbhbi5wMew==">
+  
+
+  <link rel="stylesheet" media="all" href="login/application-c49e60a502a5d9aec607552298b4e82dbdcc73fb36413b94.css" data-turbolinks-track="reload">
+    <script src="login/application-ff1b46389656b77c621fb42f479e609a6864d7da6b7543908.js" data-turbolinks-track="reload"></script>
+
+</head>
+<body>
+  <header class="navbar" role="navigation">
+    <div class="navbar__container">
+      <a class="navbar__home" href="/">
+        <img class="navbar__logo" src="login/republique_francaise.svg" alt="logo Dossiersco">
+        <span class="navbar__domain">DossierSCO.fr</span>
+      </a>
+    </div>
+  </header>
+
+  <main role="main" class="container mt-4">
+
+
+
+    <section class="section">
+  <div>
+    <h1 class="text-center">Inscription au collège</h1>
+    <p class="lead text-center">Quelques clics pour inscrire votre enfant</p>
+  </div>
+
+  <form action="/identification" method="post">
+    <input type="hidden" name="authenticity_token" value="lAuOpyUobHvXsR7GiyW4mZkh7wtYYGbA44sTrxRdEbkKZ+46diw74uODWLxmcKLuin0jeK5jZsdVnbhbi5wMew==">
+
+    <div class="form__group">
+      <label class="col-form-label" for="identifiant" id="label_identifiant">Identifiant (Exemple : 2206004705B)</label>
+      <input name="identifiant" type="text" class="form-control" id="identifiant" placeholder="Exemple : 2206004705B" autofocus="">
+    </div>
+
+    <div class="form__group">
+      <label class="" for="jour" id="label_date">Date de naissance de l'élève</label>
+      <input name="jour" type="number" id="date_jour" min="1" maxlength="2" placeholder="JJ" style="width:25%;" max="31" required="">
+      <input name="mois" type="number" id="date_mois" min="1" maxlength="2" placeholder="MM" style="width:25%;" max="12" required="">
+      <input name="annee" type="number" id="date_annee" min="2000" maxlength="4" placeholder="AAAA" style="width: 48%;" max="2018" required="">
+    </div>
+
+    <div class="form__group text-center">
+      <button class="button">Connexion</button>
+    </div>
+
+  </form>
+
+  <div id="lien-si-agent">
+    <p class="text-center">
+    Vous êtes dans l'académie de Paris ?
+    <a href="https://ent.parisclassenumerique.fr/cas/login?service=https://demo.dossiersco.fr/retour-ent">Vous devez vous connecter avec l'ENT</a>
+    </p>
+
+      <p class="text-center"><a href="https://ent.parisclassenumerique.fr/cas/login?service=https%3A%2F%2Fdemo.dossiersco.fr%2Fretour-ent"> m'authentifier avec mon ENT (réservé aux établissements parisiens) </a></p>
+  </div>
+
+</section>
+
+  </main>
+
+
+
+
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <ul class="footer__links">
+      <li><a href="https://docs.dossiersco.fr/a-propos/">A propos</a></li>
+      <li><a href="https://docs.dossiersco.fr/">Lire la documentation</a></li>
+      <li><a href="https://docs.dossiersco.fr/lettre-infos/">S'abonner à la lettre d'infos</a></li>
+      <li><a href="https://dossiersco-demo.scalingo.io/suivi/etablissements_experimentateurs">Établissements expérimentateurs</a></li>
+    </ul>
+
+    <ul class="footer__links">
+      <li><a href="https://dossiersco-demo.scalingo.io/changelog">Changelog</a></li>
+      <li><a href="https://docs.dossiersco.fr/tutoriels/retour_base_eleve/">Procédures de retour vers siecle</a></li>
+    </ul>
+
+    <ul class="footer__links">
+        <li><a href="https://dossiersco-demo.scalingo.io/letter_opener">Emails envoyés</a></li>
+    </ul>
+  </div>
+</footer>
+<!-- Piwik -->
+<script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(["setDomains", ["*.www.dossiersco.fr","*.dossiersco.beta.gouv.fr","*.dossiersco.fr"]]);
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+  var u="//stats.data.gouv.fr/";
+  _paq.push(['setTrackerUrl', u+'piwik.php']);
+  _paq.push(['setSiteId', '54']);
+  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+  g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+<noscript><p><img src="//stats.data.gouv.fr/piwik.php?idsite=54" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+
+</body></html>
