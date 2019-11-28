@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>DossierSCO : l’inscription au collège</title>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="LcLspa8nYHlNnNZBsoPljCXsAot8yVzx+gVFr7M1FTVDLnVw1hkwN6avXNWzrzSyjTB3GyEt4NMaW6BcLRgGsg==">
+  
+
+  <link rel="stylesheet" media="all" href="3_eleve_fichiers/application-f512ae9900d52d85a050e9782e16d7420b39fbd026230839.css" data-turbolinks-track="reload">
+    <script type="text/javascript" async="" defer="defer" src="3_eleve_fichiers/piwik.js"></script><script src="3_eleve_fichiers/famille-f30c7ef15a5f4c017f815e8beb06b66d57ba3e321a4142cffbf53.js" data-turbolinks-track="reload"></script>
+  <link rel="stylesheet" media="all" href="3_eleve_fichiers/famille-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495.css" data-turbolinks-track="reload">
+
+</head>
+<body>
+
+  <header class="navbar" role="navigation">
+    <div class="navbar__container">
+      <a class="navbar__home" href="https://dossiersco-demo.scalingo.io/accueil">
+        <img class="navbar__logo" src="3_eleve_fichiers/republique_francaise.svg" alt="logo Dossiersco">
+        <span class="navbar__domain">DossierSCO.fr</span>
+      </a>
+      <ul class="nav__links">
+          <li class="nav__item">
+            <a href="https://dossiersco-demo.scalingo.io/deconnexion">Se déconnecter</a>
+      </li></ul>
+    </div>
+  </header>
+
+  <main role="main" class="container  mt-4">
+
+  <nav class="mt-1">
+    <div class="arrow-steps clearfix">
+
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/accueil">
+          <span>Accueil</span>
+        </a>
+        <a class="step step step-enabled current" href="https://dossiersco-demo.scalingo.io/eleve">
+          <span>Élève</span>
+        </a>
+        <a class="step step step-disabled" href="#">
+          <span>Famillle</span>
+        </a>
+        <a class="step step step-disabled" href="#">
+          <span>Administration</span>
+        </a>
+        <a class="step step step-disabled" href="#">
+          <span>Pièces à joindre</span>
+        </a>
+        <a class="step step step-disabled" href="#">
+          <span>Validation</span>
+        </a>
+
+    </div>
+  </nav>
+
+  <section class="section">
+
+  <form class="simple_form edit_dossier_eleve" id="edit_dossier_eleve_44601" novalidate="novalidate" action="./4_famille.html" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="LcLspa8nYHlNnNZBsoPljCXsAot8yVzx+gVFr7M1FTVDLnVw1hkwN6avXNWzrzSyjTB3GyEt4NMaW6BcLRgGsg==">
+
+    <p><em>Veuillez corriger les informations incorrectes ou manquantes :</em></p>
+
+    <h2 class="separation">Identité de l'élève</h2>
+
+    <div class="form__group">
+      <div class="input string required dossier_eleve_prenom field_without_errors"><label class="string required" for="dossier_eleve_prenom"><abbr title="Obligatoire">*</abbr> Prenom</label><input class="string required" required="required" aria-required="true" placeholder="Prénom" type="text" value="Clémence" name="dossier_eleve[prenom]" id="dossier_eleve_prenom"></div>
+    </div>
+
+
+    <div class="form__group">
+      <div class="input string required dossier_eleve_nom field_without_errors"><label class="string required" for="dossier_eleve_nom"><abbr title="Obligatoire">*</abbr> Nom</label><input class="string required" required="required" aria-required="true" placeholder="Nom" type="text" value="Paul" name="dossier_eleve[nom]" id="dossier_eleve_nom"></div>
+    </div>
+
+    <div class="form__group">
+      <div class="input radio_buttons required dossier_eleve_sexe field_without_errors"><label class="radio_buttons required"><abbr title="Obligatoire">*</abbr> Sexe</label><input type="hidden" name="dossier_eleve[sexe]" value=""><span class="radio"><label for="dossier_eleve_sexe_féminin"><input class="radio_buttons required" required="required" aria-required="true" type="radio" value="Féminin" checked="checked" name="dossier_eleve[sexe]" id="dossier_eleve_sexe_féminin">Féminin</label></span><span class="radio"><label for="dossier_eleve_sexe_masculin"><input class="radio_buttons required" required="required" aria-required="true" type="radio" value="Masculin" name="dossier_eleve[sexe]" id="dossier_eleve_sexe_masculin">Masculin</label></span></div>
+    </div>
+
+    <div class="form__group">
+      <div class="input string required dossier_eleve_ville_naiss field_without_errors"><label class="string required" for="dossier_eleve_ville_naiss"><abbr title="Obligatoire">*</abbr> Ville de naissance</label><input class="string required" required="required" aria-required="true" placeholder="Ville de naissance" type="text" value="Saint-Maur-des-Fossés" name="dossier_eleve[ville_naiss]" id="dossier_eleve_ville_naiss"></div>
+    </div>
+
+    <div class="form__group">
+      <div class="input select required dossier_eleve_pays_naiss field_without_errors"><label class="select required" for="dossier_eleve_pays_naiss"><abbr title="Obligatoire">*</abbr> Pays de naissance</label><select class="select required" required="required" aria-required="true" name="dossier_eleve[pays_naiss]" id="dossier_eleve_pays_naiss"><option value=""></option>
+<option value="995">SANS PAYS</option>
+<option value="319">ACORES-MADERE</option>
+<option value="212">AFGHANISTAN</option>
+<option value="303">AFRICAINE SUD</option>
+<option value="125">ALBANIE</option>
+<option value="352">ALGERIE</option>
+<option value="109">ALLEMAGNE</option>
+<option value="404">ETATS-UNIS</option>
+<option value="130">ANDORRE</option>
+<option value="395">ANGOLA</option>
+<option value="441">ANTIGUA et BARBUDA</option>
+<option value="201">ARABIE SAOUDITE</option>
+<option value="415">ARGENTINE</option>
+<option value="252">ARMENIE</option>
+<option value="501">AUSTRALIE</option>
+<option value="110">AUTRICHIE</option>
+<option value="253">AZERBAIDJAN</option>
+<option value="436">BAHAMAS</option>
+<option value="249">BAHREIN</option>
+<option value="246">BANGLADESH</option>
+<option value="434">BARBADE</option>
+<option value="131">BELGIQUE</option>
+<option value="429">BELIZE</option>
+<option value="327">BENIN</option>
+<option value="214">BHOUTAN</option>
+<option value="148">BIÉLORUSSIE</option>
+<option value="224">BIRMANIE</option>
+<option value="418">BOLIVIE</option>
+<option value="118">BOSNIE-HERZEGOVINE</option>
+<option value="347">BOTSWANA</option>
+<option value="416">BRESIL</option>
+<option value="132">ANGLETERRE</option>
+<option value="225">BRUNEI</option>
+<option value="111">BULGARIE</option>
+<option value="331">BURKINA-FASO</option>
+<option value="321">BURUNDI</option>
+<option value="234">CAMBODGE</option>
+<option value="322">CAMEROUN</option>
+<option value="401">CANADA</option>
+<option value="396">CAP VERT</option>
+<option value="323">CENTRAFRIQUE</option>
+<option value="417">CHILI</option>
+<option value="216">CHINE POPUL.</option>
+<option value="254">CHYPRIOTE</option>
+<option value="419">COLOMBIE</option>
+<option value="397">COMORES</option>
+<option value="324">CONGO</option>
+<option value="312">REP.DEMOCRAT.du CONGO</option>
+<option value="238">COREE(REP.Populaire Démocratique)</option>
+<option value="239">COREE(Republique de)</option>
+<option value="406">COSTA RICA</option>
+<option value="119">CROATIE</option>
+<option value="407">CUBA</option>
+<option value="101">DANEMARK</option>
+<option value="399">DJIBOUTI</option>
+<option value="408">DOMINIQUE</option>
+<option value="301">EGYPTE</option>
+<option value="414">EL SALVADOR</option>
+<option value="247">EMIRATS ARABES UNIS</option>
+<option value="420">EQUATEUR</option>
+<option value="317">ERYTHREE</option>
+<option value="134">ESPAGNE</option>
+<option value="106">ESTONIE</option>
+<option value="315">ETHIOPIE (ABYSSINIE)</option>
+<option value="508">FIDJI</option>
+<option value="105">FINLANDE</option>
+<option selected="selected" value="100">FRANCE</option>
+<option value="328">GABON</option>
+<option value="304">GAMBIE</option>
+<option value="255">GEORGIE</option>
+<option value="329">GHANA</option>
+<option value="133">GIBRALTAR</option>
+<option value="126">GRECE</option>
+<option value="435">GRENADE-GRENADINES</option>
+<option value="430">GROENLAND</option>
+<option value="409">GUATEMALA</option>
+<option value="392">GUINEE BISSAO</option>
+<option value="314">GUINEE EQUATORIALE</option>
+<option value="330">GUINEE</option>
+<option value="428">GUYANA</option>
+<option value="410">HAITI</option>
+<option value="135">PAYS-BAS</option>
+<option value="411">HONDURAS</option>
+<option value="230">HONGKONG</option>
+<option value="112">HONGRIE</option>
+<option value="438">ILE DE LA DOMINIQUE</option>
+<option value="439">ILE STE LUCIE</option>
+<option value="515">ILE MARSHALL</option>
+<option value="440">ILE ST VINCENT et GRENADINES</option>
+<option value="223">INDE</option>
+<option value="231">INDONESIE</option>
+<option value="203">IRAK</option>
+<option value="204">IRAN</option>
+<option value="136">IRLANDE</option>
+<option value="102">ISLANDE</option>
+<option value="207">ISRAEL</option>
+<option value="127">ITALIE</option>
+<option value="326">CÔTE D'IVOIRE</option>
+<option value="426">JAMAÏQUE</option>
+<option value="217">JAPON</option>
+<option value="222">JORDAN</option>
+<option value="256">KAZAKHSTAN</option>
+<option value="332">KENYA</option>
+<option value="257">KIRGUIZISTAN</option>
+<option value="513">KIRIBATI</option>
+<option value="240">KOWEIT</option>
+<option value="157">KOSOVO</option>
+<option value="241">LAOTIENNE</option>
+<option value="348">LESOTHO</option>
+<option value="107">LETTONIE</option>
+<option value="205">LIBAN</option>
+<option value="302">LIBERIA</option>
+<option value="316">LIBYE</option>
+<option value="113">LIECHTENSTEIN</option>
+<option value="108">LITUANIE</option>
+<option value="137">LUXEMBOURG</option>
+<option value="232">MACAO</option>
+<option value="156">MACEDOINE(ex Rép.Yougoslave)</option>
+<option value="227">MALAISIE</option>
+<option value="334">MALAWI</option>
+<option value="229">MALDIVES</option>
+<option value="333">MADAGASCAR</option>
+<option value="335">MALI</option>
+<option value="144">MALTA</option>
+<option value="350">MAROC</option>
+<option value="390">ILE MAURICE</option>
+<option value="336">MAURITANIE</option>
+<option value="405">MEXIQUE</option>
+<option value="516">MICRONESIE(Etats fédérés de)</option>
+<option value="151">MOLDAVIE</option>
+<option value="138">MONACO</option>
+<option value="242">MONGOLIE EXTERIEURE</option>
+<option value="120">MONTENEGRO</option>
+<option value="393">MOZAMBIQUE</option>
+<option value="311">NAMIBIE</option>
+<option value="507">NAURU</option>
+<option value="502">NOUVELLE-ZELANDE</option>
+<option value="215">NEPAL</option>
+<option value="412">NICARAGUA</option>
+<option value="337">NIGER</option>
+<option value="338">NIGERIA</option>
+<option value="103">NORVEGE</option>
+<option value="339">OUGANDA</option>
+<option value="258">OUZBEKISTAN</option>
+<option value="213">PAKISTAN</option>
+<option value="261">PALESTINE(Territoires Gaza et Jericho)</option>
+<option value="517">PALAOS (REPUBLIQUE DES ÎLES)</option>
+<option value="413">PANAMA</option>
+<option value="510">PAPAOUSIE-NLE GUINEE</option>
+<option value="421">PARAGUAY</option>
+<option value="422">PEROU</option>
+<option value="220">PHILIPPINE</option>
+<option value="122">POLOGNE</option>
+<option value="139">PORTUGAL</option>
+<option value="313">PROV.ESP.AFR. PRESIDES</option>
+<option value="248">QATAR</option>
+<option value="114">ROUMANIE</option>
+<option value="340">RWANDA</option>
+<option value="123">RUSSIE</option>
+<option value="442">St.CHRISTOPHE et NIEVES</option>
+<option value="389">SAHARA OCCIDENTAL</option>
+<option value="512">SALOMON</option>
+<option value="506">SAMOA Occidentales</option>
+<option value="394">SAO-THOME et PRINCIPE</option>
+<option value="341">SENEGAL</option>
+<option value="121">YOUGOSLAVIE(Serbie Montenegro)</option>
+<option value="398">SEYCHELLES</option>
+<option value="342">SIERRA LEONE</option>
+<option value="226">SINGAPOUR</option>
+<option value="117">SLOVAQUE</option>
+<option value="145">SLOVENIE</option>
+<option value="318">SOMALIE</option>
+<option value="343">SOUDAN</option>
+<option value="349">SOUDAN DU SUD</option>
+<option value="235">SRI LANKA</option>
+<option value="128">ST MARIN</option>
+<option value="104">SUEDE</option>
+<option value="140">SUISSE</option>
+<option value="250">OMAN</option>
+<option value="437">SURINAM</option>
+<option value="391">SWAZILAND</option>
+<option value="206">SYRIE</option>
+<option value="236">TAIWAN</option>
+<option value="259">TADJIKISTAN</option>
+<option value="309">TANZANIE</option>
+<option value="344">TCHAD</option>
+<option value="292">TIMOR ORIENTAL</option>
+<option value="116">RÉPUBLIQUE TCHEQUE</option>
+<option value="431">Ter.PaysBas:ANTILLES NEERL.</option>
+<option value="425">Ter.Roy.Uni aux ANTILLES</option>
+<option value="427">Ter.Roy.Uni.dans l’Atlantique</option>
+<option value="432">Ter.USA:PortoRico I.vierges de USA</option>
+<option value="306">Ter.Roy.UNI.OC.ATL:Ste HELENE</option>
+<option value="503">Ter.Roy.UNI:Iles PITCAIRN</option>
+<option value="505">Ter.des USA (OCEANIE)</option>
+<option value="219">THAILANDE</option>
+<option value="345">TOGO</option>
+<option value="509">TONGA</option>
+<option value="433">TRINITE et TOBAGO</option>
+<option value="351">TUNISIE</option>
+<option value="260">TURMEN</option>
+<option value="208">TURQUIE</option>
+<option value="511">TUVALU</option>
+<option value="155">UKRAINE</option>
+<option value="423">URUGUAY</option>
+<option value="514">VANUATU</option>
+<option value="129">VATICAN</option>
+<option value="424">VENEZUELA</option>
+<option value="243">VIETNAM</option>
+<option value="251">YEMEN</option>
+<option value="346">ZAMBIE</option>
+<option value="310">ZIMBABWE</option>
+<option value="990">AUTRES PAYS</option></select></div>
+    </div>
+
+    <div class="form__group">
+      <div class="input select required dossier_eleve_nationalite field_without_errors"><label class="select required" for="dossier_eleve_nationalite"><abbr title="Obligatoire">*</abbr> Pays de nationalité</label><select class="select required" required="required" aria-required="true" name="dossier_eleve[nationalite]" id="dossier_eleve_nationalite"><option value=""></option>
+<option value="995">SANS NATIONALITE</option>
+<option value="212">AFGHANE</option>
+<option value="303">AFRICAINE SUD</option>
+<option value="125">ALBANAISE</option>
+<option value="352">ALGERIENNE</option>
+<option value="109">ALLEMANDE</option>
+<option value="404">ETATS-UNIENNE</option>
+<option value="130">ANDORRANE</option>
+<option value="395">ANGOLA</option>
+<option value="441">ANTIGUA et BARBUDA</option>
+<option value="201">ARABIE SAOUD.</option>
+<option value="415">ARGENTINE</option>
+<option value="252">ARMENIE</option>
+<option value="501">AUSTRALIENNE</option>
+<option value="110">AUTRICHIENNE</option>
+<option value="253">AZERBAIDJAN</option>
+<option value="436">BAHAMAS</option>
+<option value="249">BAHREIN</option>
+<option value="246">BANGLADESH</option>
+<option value="434">BARBADE</option>
+<option value="131">BELGE</option>
+<option value="429">BELIZE</option>
+<option value="327">BENINOISE</option>
+<option value="214">BHOUTAN</option>
+<option value="148">BIELORUSSE</option>
+<option value="224">BIRMANE</option>
+<option value="418">BOLIVIENNE</option>
+<option value="118">BOSNIE-HERZEGOVINE</option>
+<option value="347">BOTSWANA</option>
+<option value="416">BRESILIENNE</option>
+<option value="132">BRITANNIQUE</option>
+<option value="225">BRUNEI</option>
+<option value="111">BULGARE</option>
+<option value="331">BURKINA-FASO</option>
+<option value="321">BURUNDI</option>
+<option value="234">CAMBODGE</option>
+<option value="322">CAMEROUNAISE</option>
+<option value="401">CANADIENNE</option>
+<option value="396">CAP VERT</option>
+<option value="323">CENTRAFRICAINE</option>
+<option value="417">CHILIENNE</option>
+<option value="216">CHINOISE</option>
+<option value="254">CHYPRIOTE</option>
+<option value="419">COLOMBIENNE</option>
+<option value="397">COMORES</option>
+<option value="324">CONGOLAISE</option>
+<option value="312">REP.DEMOCRAT.du CONGO</option>
+<option value="238">COREE(REP.Populaire Démocratique)</option>
+<option value="239">COREE(Republique de)</option>
+<option value="406">COSTARICIENNE</option>
+<option value="119">CROATE</option>
+<option value="407">CUBAINE</option>
+<option value="101">DANOISE</option>
+<option value="399">DJIBOUTI</option>
+<option value="408">DOMINICAINE</option>
+<option value="301">EGYTIENNE</option>
+<option value="414">EL SALVADOR</option>
+<option value="247">EMIRATS ARABES UNIS</option>
+<option value="420">EQUATORIENNE</option>
+<option value="317">ERYTHREE</option>
+<option value="134">ESPAGNOLE</option>
+<option value="106">ESTONIE</option>
+<option value="315">ETHIOPIENNE</option>
+<option value="508">FIDJI</option>
+<option value="105">FINLANDAISE</option>
+<option selected="selected" value="100">FRANCAISE</option>
+<option value="328">GABONAISE</option>
+<option value="304">GAMBIE</option>
+<option value="255">GEORGIENNE</option>
+<option value="329">GHANEENNE</option>
+<option value="126">GRECQUE</option>
+<option value="435">GRENADE-GRENADINES</option>
+<option value="409">GUATEMALTAISE</option>
+<option value="392">GUINEE BISSAO</option>
+<option value="314">GUINEE EQUATORIALE</option>
+<option value="330">GUINEENNE</option>
+<option value="428">GUYANA</option>
+<option value="410">HAITIENNE</option>
+<option value="135">HOLLANDAISE</option>
+<option value="411">HONDURIENNE</option>
+<option value="112">HONGROISE</option>
+<option value="438">ILE DE LA DOMINIQUE</option>
+<option value="439">ILE STE LUCIE</option>
+<option value="515">ILE MARSHALL</option>
+<option value="440">ILE ST VINCENT et GRENADINES</option>
+<option value="223">INDIENNE</option>
+<option value="231">INDONESIENNE</option>
+<option value="203">IRAKIENNE</option>
+<option value="204">IRANIENNE</option>
+<option value="136">IRLANDAISE</option>
+<option value="102">ISLANDAISE</option>
+<option value="207">ISRAELIENNE</option>
+<option value="127">ITALIENNE</option>
+<option value="326">IVOIRIENNE</option>
+<option value="426">JAMAICAINE</option>
+<option value="217">JAPONAISE</option>
+<option value="222">JORDANIENNE</option>
+<option value="256">KAZAKHSTAN</option>
+<option value="332">KENYA</option>
+<option value="257">KIRGUIZISTAN</option>
+<option value="513">KIRIBATI</option>
+<option value="240">KOWEIT</option>
+<option value="157">KOSOVO</option>
+<option value="241">LAOTIENNE</option>
+<option value="348">LESOTHO</option>
+<option value="107">LETTONIE</option>
+<option value="205">LIBANAISE</option>
+<option value="302">LIBERIENNE</option>
+<option value="316">LIBYENNE</option>
+<option value="113">LIECHTENSTEIN</option>
+<option value="108">LITUANIE</option>
+<option value="137">LUXEMBOURGEOISE</option>
+<option value="156">MACEDOINE(ex Rép.Yougoslave)</option>
+<option value="227">MALAISIE</option>
+<option value="334">MALAWI</option>
+<option value="229">MALDIVES</option>
+<option value="333">MALGACHE</option>
+<option value="335">MALIENNE</option>
+<option value="144">MALTAISE</option>
+<option value="350">MAROCAINE</option>
+<option value="390">MAURICIENNE</option>
+<option value="336">MAURITANIENNE</option>
+<option value="405">MEXICAINE</option>
+<option value="516">MICRONESIE(Etats fédérés de)</option>
+<option value="151">MOLDAVE</option>
+<option value="138">MONEGASQUE</option>
+<option value="242">MONGOLIE EXTERIEURE</option>
+<option value="393">MOZAMBIQUE</option>
+<option value="120">MONTENEGRO</option>
+<option value="311">NAMIBIE</option>
+<option value="507">NAURU</option>
+<option value="502">NEO-ZELANDAISE</option>
+<option value="215">NEPALAISE</option>
+<option value="412">NICARAGUAYENNE</option>
+<option value="337">NIGER</option>
+<option value="338">NIGERIA</option>
+<option value="103">NORVEGIENNE</option>
+<option value="339">OUGANDAISE</option>
+<option value="258">OUZBEKISTAN</option>
+<option value="213">PAKISTANAISE</option>
+<option value="261">PALESTINE(Territoires Gaza et Jericho)</option>
+<option value="517">PALAOS (RÉPUBLIQUE DES ÎLES)</option>
+<option value="413">PANAMEENNE</option>
+<option value="510">PAPAOUSIE-NLE GUINEE</option>
+<option value="421">PARAGUAYENNE</option>
+<option value="422">PERUVIENNE</option>
+<option value="220">PHILIPPINE</option>
+<option value="122">POLONAISE</option>
+<option value="139">PORTUGAISE</option>
+<option value="248">QATAR</option>
+<option value="114">ROUMAINE</option>
+<option value="340">RWANDAISE</option>
+<option value="123">RUSSE</option>
+<option value="442">St.CHRISTOPHE et NIEVES</option>
+<option value="389">SAHARA OCCIDENTAL</option>
+<option value="512">SALOMON</option>
+<option value="506">SAMOA Occidentales</option>
+<option value="394">SAO-THOME et PRINCIPE</option>
+<option value="341">SENEGALAISE</option>
+<option value="398">SEYCHELLES</option>
+<option value="121">YOUGOSLAVIE(Serbie Montenegro)</option>
+<option value="342">SIERRA LEONE</option>
+<option value="226">SINGAPOUR</option>
+<option value="117">SLOVAQUE</option>
+<option value="145">SLOVENE</option>
+<option value="318">SOMALIENNE</option>
+<option value="343">SOUDANAISE</option>
+<option value="349">SOUDANAISE DU SUD</option>
+<option value="235">SRI LANKA</option>
+<option value="128">ST MARIN</option>
+<option value="104">SUEDOISE</option>
+<option value="140">SUISSE</option>
+<option value="250">OMAN</option>
+<option value="437">SURINAM</option>
+<option value="391">SWAZILAND</option>
+<option value="206">SYRIENNE</option>
+<option value="236">TAIWAN</option>
+<option value="259">TADJIKISTAN</option>
+<option value="309">TANZANIE</option>
+<option value="344">TCHADIENNE</option>
+<option value="116">TCHEQUE</option>
+<option value="505">Ter.des USA (OCEANIE)</option>
+<option value="219">THAILANDAISE</option>
+<option value="345">TOGOLAISE</option>
+<option value="509">TONGA</option>
+<option value="433">TRINITE et TOBAGO</option>
+<option value="351">TUNISIENNE</option>
+<option value="260">TURMENISTAN</option>
+<option value="208">TURQUE</option>
+<option value="511">TUVALU</option>
+<option value="262">TIMOR ORIENTAL</option>
+<option value="155">UKRAINE</option>
+<option value="423">URUGUAYENNE</option>
+<option value="514">VANUATU</option>
+<option value="129">VATICANE</option>
+<option value="424">VENEZUELIENNE</option>
+<option value="243">VIETNAMIENNE</option>
+<option value="251">YEMENITE</option>
+<option value="346">ZAMBIE</option>
+<option value="310">ZIMBABWE</option>
+<option value="990">AUTRES NATIONALITE</option></select></div>
+    </div>
+
+
+      <h3 id="options-pedagogiques" class="separation">Options pédagogiques</h3>
+      <p>Cocher ou décocher en fonction de ce que votre enfant souhaite 
+faire l'année prochaine (les options en coches grisée doivent être 
+poursuivies l'année prochaine)</p>
+
+        <label></label>        <label></label>        <label>
+            <input type="checkbox" name="ESPAGNOL LV2" id="ESPAGNOL_LV2" value="605" disabled="disabled" class="disabled" checked="checked">
+            <input type="hidden" name="ESPAGNOL LV2" id="ESPAGNOL_LV2" value="605">
+            ESPAGNOL LV2
+            1 seule LV2 OBLIGATOIRE au choix
+</label>        <label></label>        <label>
+            <input type="checkbox" name="LCA LATIN" id="LCA_LATIN" value="369" disabled="disabled" class="disabled" checked="checked">
+            <input type="hidden" name="LCA LATIN" id="LCA_LATIN" value="369">
+            LCA LATIN
+            Inscription IMPOSSIBLE pour les élèves déjà occitanistes en 6ème
+</label>
+    <div class="row mt-2">
+  <a class="button secondary bouton-retour" href="https://dossiersco-demo.scalingo.io/accueil">
+    <img src="3_eleve_fichiers/precedent.png" alt="précédent" title="précédent"> Retour</a>
+  <button type="submit" class="button boutton-enregistrer">Enregistrer et continuer  <img src="3_eleve_fichiers/suivant.png" alt="suivant" title="suivant"></button>
+</div>
+
+</form>
+</section>
+
+<script>
+document.getElementById("prenom").focus();
+</script>
+
+
+  </main>
+
+
+
+
+<footer class="footer" role="contentinfo">
+</footer>
+
+
+
+
+</body></html>

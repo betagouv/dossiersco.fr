@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" media="all" href="7_validation_fichiers/application-f512ae9900d52d85a050e9782e16d7420b39fbd026230839.css" data-turbolinks-track="reload">
+    <script type="text/javascript" async="" defer="defer" src="7_validation_fichiers/piwik.js"></script><script type="text/javascript" async="" defer="defer" src="7_validation_fichiers/piwik.js"></script><script src="7_validation_fichiers/famille-f30c7ef15a5f4c017f815e8beb06b66d57ba3e321a4142cffbf53.js" data-turbolinks-track="reload"></script>
+  <link rel="stylesheet" media="all" href="7_validation_fichiers/famille-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495.css" data-turbolinks-track="reload">
+
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="description" content=""><meta name="author" content=""><title>DossierSCO : l’inscription au collège</title><meta name="csrf-param" content="authenticity_token"><meta name="csrf-token" content="znyWPBr2i1Jhs6aZvR1eXRxyGd+LYj2Hy3Vc1DL0LqipRdlVLjH9iYxKsb09FBtpSVukuV43GGIn58eSgHyZ/A=="></head>
+<body>
+
+  <header class="navbar" role="navigation">
+    <div class="navbar__container">
+      <a class="navbar__home" href="https://dossiersco-demo.scalingo.io/accueil">
+        <img class="navbar__logo" src="7_validation_fichiers/republique_francaise.svg" alt="logo Dossiersco">
+        <span class="navbar__domain">DossierSCO.fr</span>
+      </a>
+      <ul class="nav__links">
+          <li class="nav__item">
+            <a href="https://dossiersco-demo.scalingo.io/deconnexion">Se déconnecter</a>
+      </li></ul>
+    </div>
+  </header>
+
+  <main role="main" class="container  mt-4">
+
+  <nav class="mt-1">
+    <div class="arrow-steps clearfix">
+
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/accueil">
+          <span>Accueil</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/eleve">
+          <span>Élève</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/famille">
+          <span>Famillle</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/administration">
+          <span>Administration</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/pieces_a_joindre">
+          <span>Pièces à joindre</span>
+        </a>
+        <a class="step step step-enabled current" href="https://dossiersco-demo.scalingo.io/validation">
+          <span>Validation</span>
+        </a>
+
+    </div>
+  </nav>
+
+  <section class="section">
+  <div class="container">
+
+    <h2 class="separation">Validation</h2>
+
+    <p></p><p>Le dossier d'inscription de votre enfant <strong>Clémence Paul</strong> pour son entrée en 4ème au collège <strong>Établissement de démo</strong> est complet.</p><p></p>
+    <p>Veuillez vérifier les informations ci-dessous, puis validez l'inscription.</p>
+
+    <div class="card">
+      <div class="panel">
+          <div class="row mt-1">
+            <div>
+              Options maintenues <strong>ESPAGNOL LV2</strong>
+            </div>
+            <a id="modifier-ESPAGNOL LV2" href="https://dossiersco-demo.scalingo.io/eleve#options-pedagogiques">
+              <div class="btn btn-outline-secondary btn-sm">Modifier</div>
+            </a>
+          </div>
+          <div class="row mt-1">
+            <div>
+              Options maintenues <strong>LCA LATIN</strong>
+            </div>
+            <a id="modifier-LCA LATIN" href="https://dossiersco-demo.scalingo.io/eleve#options-pedagogiques">
+              <div class="btn btn-outline-secondary btn-sm">Modifier</div>
+            </a>
+          </div>
+
+          <div class="row mt-1">
+            <div>
+              Options demandées <strong>ESPAGNOL LV2</strong>
+            </div>
+            <a id="modifier-ESPAGNOL LV2" href="https://dossiersco-demo.scalingo.io/eleve#options-pedagogiques">
+              <div class="btn btn-outline-secondary btn-sm">Modifier</div>
+            </a>
+          </div>
+          <div class="row mt-1">
+            <div>
+              Options demandées <strong>LCA LATIN</strong>
+            </div>
+            <a id="modifier-LCA LATIN" href="https://dossiersco-demo.scalingo.io/eleve#options-pedagogiques">
+              <div class="btn btn-outline-secondary btn-sm">Modifier</div>
+            </a>
+          </div>
+
+
+
+      </div>
+    </div>
+
+    <form action="/validation" method="POST" class="mt-2">
+      <input type="hidden" name="authenticity_token" value="LKJMUdaZv4JwV8PbNOPsmWbyDUC2xewLff1CK9LITRhLmwM44l7JWZ2u1P+06qmtM9uwJmOQye6Rb9ltYED6TA==">
+      <div class="form-check">
+	<label class="form-check-label">
+		<input class="form-check-input" type="checkbox" name="signature" value="true" id="signature" required="">
+ En tant que responsable légal de Clémence, je certifie sur l'honneur 
+l'exactitude des informations communiquées et m'engage à tenir le 
+collège informé de tout changement de situation ou de coordonnées.
+	</label>
+</div>
+
+<a href="./8_confirmation.html"/>
+
+                                                         <div class="text-center mt-2">
+                                                           <button type="submit" class="button">Valider l'inscription</button>
+                                                         </div>
+</a>
+    </form>
+  </div>
+</section>
+
+
+  </main>
+
+
+
+
+<footer class="footer" role="contentinfo">
+</footer>
+
+
+</body></html>

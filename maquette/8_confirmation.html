@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>DossierSCO : l’inscription au collège</title>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="7VC65GgRGL9R2fU1Xd5YjqMF7sr8OSKx05I1vPK/xKWKafWNXNZuZLwg4hHd1x269ixTrClsB1Q/AK76QDdz8Q==">
+  
+
+  <link rel="stylesheet" media="all" href="8_confirmation_fichiers/application-f512ae9900d52d85a050e9782e16d7420b39fbd026230839.css" data-turbolinks-track="reload">
+    <script type="text/javascript" async="" defer="defer" src="8_confirmation_fichiers/piwik.js"></script><script src="8_confirmation_fichiers/famille-f30c7ef15a5f4c017f815e8beb06b66d57ba3e321a4142cffbf53.js" data-turbolinks-track="reload"></script>
+  <link rel="stylesheet" media="all" href="8_confirmation_fichiers/famille-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495.css" data-turbolinks-track="reload">
+
+</head>
+<body>
+
+  <header class="navbar" role="navigation">
+    <div class="navbar__container">
+      <a class="navbar__home" href="https://dossiersco-demo.scalingo.io/accueil">
+        <img class="navbar__logo" src="8_confirmation_fichiers/republique_francaise.svg" alt="logo Dossiersco">
+        <span class="navbar__domain">DossierSCO.fr</span>
+      </a>
+      <ul class="nav__links">
+          <li class="nav__item">
+            <a href="https://dossiersco-demo.scalingo.io/deconnexion">Se déconnecter</a>
+      </li></ul>
+    </div>
+  </header>
+
+  <main role="main" class="container  mt-4">
+
+  <nav class="mt-1">
+    <div class="arrow-steps clearfix">
+
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/accueil">
+          <span>Accueil</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/eleve">
+          <span>Élève</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/famille">
+          <span>Famillle</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/administration">
+          <span>Administration</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/pieces_a_joindre">
+          <span>Pièces à joindre</span>
+        </a>
+        <a class="step step step-enabled current" href="https://dossiersco-demo.scalingo.io/validation">
+          <span>Validation</span>
+        </a>
+
+    </div>
+  </nav>
+
+  <section class="section">
+  <div class="container">
+    <h2 class="separation">Réinscription de Clémence Paul enregistrée</h2>
+
+    <p>L'inscription ne sera validée qu'à réception d'un email de confirmation aux adresses suivantes :</p>
+
+    <ul>
+    </ul>
+
+    <p>A bientôt au collège Établissement de démo !</p>
+
+      <div id="question-continuer">
+        <p>L'année prochaine préféreriez-vous&nbsp;:</p>
+        <div class="form-check form-check-inline">
+          <label class="form-check-label">
+            <input class="form-check-input question-continuer-dossiersco" type="radio" name="continuer_dossiersco" data-question="true"> Continuer à utiliser cette nouvelle plateforme </label>
+        </div>
+        <div class="form-check form-check-inline">
+          <label class="form-check-label">
+            <input class="form-check-input question-continuer-dossiersco" type="radio" name="continuer_dossiersco" data-question="false"> Revenir au papier </label>
+        </div>
+      </div>
+
+    <div id="question-satisfaction" class="text-center mb-2">
+      <p class="mb-1"><small>Qu'avez-vous pensé de cette nouvelle plateforme ?</small></p>
+
+      <div id="satisfaction" class="">
+          <a class="smiley-satisfaction" href="#" data-note="1">
+            <img src="8_confirmation_fichiers/tres_insatisfait.png" alt="Très insatisfait" title="Très insatisfait">
+          </a>
+          <a class="smiley-satisfaction" href="#" data-note="2">
+            <img src="8_confirmation_fichiers/insatisfait.png" alt="Insatisfait" title="Insatisfait">
+          </a>
+          <a class="smiley-satisfaction" href="#" data-note="3">
+            <img src="8_confirmation_fichiers/neutre.png" alt="Neutre" title="Neutre">
+          </a>
+          <a class="smiley-satisfaction" href="#" data-note="4">
+            <img src="8_confirmation_fichiers/satisfait.png" alt="Satisfait" title="Satisfait">
+          </a>
+          <a class="smiley-satisfaction" href="#" data-note="5">
+            <img src="8_confirmation_fichiers/tres_satisfait.png" alt="Très satisfait" title="Très satisfait">
+          </a>
+      </div>
+    </div>
+    <form id="commentaire" class="">
+      <div class="form__group">
+        <textarea id="commentaire-textarea" name="commentaire"></textarea>
+      </div>
+      <div class="form__group">
+        <input id="envoyer-commentaire" value="Envoyer" type="submit" class="button">
+      </div>
+    </form>
+    <div id="merci_pour_commentaire" class="notification success text-center" style="display: none;">Merci pour votre commentaire</div>
+  </div>
+</section>
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+    $('.question-continuer-dossiersco').click(function(event) {
+      event.preventDefault()
+      var question = $(this).data('question');
+      $.ajax({
+        method: "POST",
+        url: "/continuer_dossiersco",
+        data: { continuer_dossiersco: question, authenticity_token: "+67Gmwg2jZJ5y8yFpcQGiwRyUKw/OdM8XYOZ3SAG4+acl4nyPPH7SZQy26ElzUO/UVvtyups9tmxEQKbko5Usg=="},
+      });
+      $('#question-continuer').addClass('d-none');
+    })
+    $('.smiley-satisfaction').click(function(event) {
+      event.preventDefault()
+      var note = $(this).data('note');
+      $.ajax({
+        method: "POST",
+        url: "/satisfaction",
+        data: { note: note, authenticity_token: "E8SHaSp3ZX3pJipVoUGqcL1ha6gGk3MSAzGfamnB/t10/cgAHrATpgTfPXEhSO9E6EjWztPGVvfvowQs20lJiQ=="},
+        success : function() {
+          $('#message_validation').show('slow')
+        }
+      });
+      $('#commentaire').removeClass('d-none');
+      $('#commentaire-textarea').focus();
+    })
+    $('#envoyer-commentaire').click(function(event) {
+      event.preventDefault()
+      var commentaire = $('#commentaire-textarea').val();
+      $.ajax({
+        method: "POST",
+        url: "/commentaire",
+        data: { commentaire: commentaire, authenticity_token: "LrX/L2+HJqjb4H9LZ8mIsiD1hovXon8Fus6HjNdJv7pJjLBGW0BQczYZaG/nwM2Gddw77QL3WuBWXBzKZcEI7g=="},
+        success : function() {
+          $('#satisfaction').hide('slow')
+          $('#question-satisfaction').hide('slow')
+          $('#commentaire').addClass('d-none');
+          $('#merci_pour_commentaire').show('slow')
+        }
+      })
+    });
+  })
+</script>
+
+
+  </main>
+
+
+
+
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <ul class="footer__links">
+      <li><a href="https://docs.dossiersco.fr/a-propos/">A propos</a></li>
+      <li><a href="https://docs.dossiersco.fr/">Lire la documentation</a></li>
+      <li><a href="https://docs.dossiersco.fr/lettre-infos/">S'abonner à la lettre d'infos</a></li>
+      <li><a href="https://dossiersco-demo.scalingo.io/suivi/etablissements_experimentateurs">Établissements expérimentateurs</a></li>
+    </ul>
+
+    <ul class="footer__links">
+      <li><a href="https://dossiersco-demo.scalingo.io/changelog">Changelog</a></li>
+      <li><a href="https://docs.dossiersco.fr/tutoriels/retour_base_eleve/">Procédures de retour vers siecle</a></li>
+    </ul>
+
+    <ul class="footer__links">
+        <li><a href="https://dossiersco-demo.scalingo.io/letter_opener">Emails envoyés</a></li>
+    </ul>
+  </div>
+</footer>
+<!-- Piwik -->
+<script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(["setDomains", ["*.www.dossiersco.fr","*.dossiersco.beta.gouv.fr","*.dossiersco.fr"]]);
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+  var u="//stats.data.gouv.fr/";
+  _paq.push(['setTrackerUrl', u+'piwik.php']);
+  _paq.push(['setSiteId', '54']);
+  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+  g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+<noscript><p><img src="//stats.data.gouv.fr/piwik.php?idsite=54" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+
+
+
+</body></html>

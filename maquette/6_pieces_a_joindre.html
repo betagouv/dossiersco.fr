@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>DossierSCO : l’inscription au collège</title>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="SXLbeK0H0QWfEpSCiqE+75m/R3dKnk2F/ZYLwmIdkaknnkKt1DmBS3QhHhaLje/RMWMy5xd68acdyO4x/DCCLg==">
+  
+
+  <link rel="stylesheet" media="all" href="6_pieces_a_joindre_fichiers/application-f512ae9900d52d85a050e9782e16d7420b39fbd026230839.css" data-turbolinks-track="reload">
+    <script type="text/javascript" async="" defer="defer" src="6_pieces_a_joindre_fichiers/piwik.js"></script><script src="6_pieces_a_joindre_fichiers/famille-f30c7ef15a5f4c017f815e8beb06b66d57ba3e321a4142cffbf53.js" data-turbolinks-track="reload"></script>
+  <link rel="stylesheet" media="all" href="6_pieces_a_joindre_fichiers/famille-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495.css" data-turbolinks-track="reload">
+
+</head>
+<body>
+
+  <header class="navbar" role="navigation">
+    <div class="navbar__container">
+      <a class="navbar__home" href="https://dossiersco-demo.scalingo.io/accueil">
+        <img class="navbar__logo" src="6_pieces_a_joindre_fichiers/republique_francaise.svg" alt="logo Dossiersco">
+        <span class="navbar__domain">DossierSCO.fr</span>
+      </a>
+      <ul class="nav__links">
+          <li class="nav__item">
+            <a href="https://dossiersco-demo.scalingo.io/deconnexion">Se déconnecter</a>
+      </li></ul>
+    </div>
+  </header>
+
+  <main role="main" class="container  mt-4">
+
+  <nav class="mt-1">
+    <div class="arrow-steps clearfix">
+
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/accueil">
+          <span>Accueil</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/eleve">
+          <span>Élève</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/famille">
+          <span>Famillle</span>
+        </a>
+        <a class="step step step-enabled current done" href="https://dossiersco-demo.scalingo.io/administration">
+          <span>Administration</span>
+        </a>
+        <a class="step step step-enabled current" href="https://dossiersco-demo.scalingo.io/pieces_a_joindre">
+          <span>Pièces à joindre</span>
+        </a>
+        <a class="step step step-disabled" href="#">
+          <span>Validation</span>
+        </a>
+
+    </div>
+  </nav>
+
+  
+<section class="section">
+  <div class="container">
+
+    <h2 class="separation">Pièces à joindre</h2>
+
+    <div class="panel">
+
+      <div>
+        <p>Les pièces précédées d'un * sont obligatoires.</p>
+      </div>
+      <div>
+        <p>Vous pouvez, si nécessaire, <b>transmettre plusieurs images pour une même pièce</b>.
+ Pour cela il vous fait maintenir enfoncé la touche CTRL de votre 
+clavier (en bas à gauche et à droite également), puis de sélectionner 
+les fichiers que vous voulez transmettre</p>
+      </div>
+      <p>Avec un <b>scanner</b>, vous pouvez nous transmettre des documents au format <b>PDF</b> ou <b>image</b>.</p> <p>Vous pouvez aussi utiliser un appareil <b>mobile</b> connecté à Internet (smartphone, tablette) pour prendre la <b>photo</b> d'un document. Attention&nbsp;: le document doit être pris <b>en entier</b>, <b>à plat</b>, et avec un <b>éclairage</b> suffisant pour que nous puissions le relire.</p> <p>Dans
+ ce cas, connectez-vous sur dossiersco.fr, vous serez automatiquement 
+redirigé sur cette page. Pensez à rafraîchir cette page pour visualiser 
+les documents avant de continuer</p>
+    </div>
+
+    <div class="cards-famille">
+    <form class="new_piece_jointe" id="new_piece_jointe" enctype="multipart/form-data" action="/pieces_jointes" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="SXLbeK0H0QWfEpSCiqE+75m/R3dKnk2F/ZYLwmIdkaknnkKt1DmBS3QhHhaLje/RMWMy5xd68acdyO4x/DCCLg==">
+      <div class="card mb-2 ">
+        <h4>* Justificatif de domicile</h4>
+        <div>
+          <p></p>
+          <p class="etat-piece-jointe"></p>
+          <div class="card-relat document">
+              <input type="hidden" value="241" name="piece_jointe[piece_attendue_id]" id="piece_jointe_piece_attendue_id">
+              <div class="form__group">
+                <input multiple="multiple" type="file" name="piece_jointe[fichiers][]" id="piece_jointe_fichiers">
+              </div>
+              <span id="fichier_"></span>
+            <br>
+            <div class="image-piece-a-joindre lien-piece-jointe" id="image_">
+            </div>
+          </div>
+        </div>
+        <button class="soumettre d-none" type="submit">Soumettre</button>
+      </div>
+</form>    <form class="new_piece_jointe" id="new_piece_jointe" enctype="multipart/form-data" action="/pieces_jointes" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="SXLbeK0H0QWfEpSCiqE+75m/R3dKnk2F/ZYLwmIdkaknnkKt1DmBS3QhHhaLje/RMWMy5xd68acdyO4x/DCCLg==">
+      <div class="card mb-2 ">
+        <h4> Copie du carnet de santé</h4>
+        <div>
+          <p></p>
+          <p class="etat-piece-jointe"></p>
+          <div class="card-relat document">
+              <input type="hidden" value="242" name="piece_jointe[piece_attendue_id]" id="piece_jointe_piece_attendue_id">
+              <div class="form__group">
+                <input multiple="multiple" type="file" name="piece_jointe[fichiers][]" id="piece_jointe_fichiers">
+              </div>
+              <span id="fichier_"></span>
+            <br>
+            <div class="image-piece-a-joindre lien-piece-jointe" id="image_">
+            </div>
+          </div>
+        </div>
+        <button class="soumettre d-none" type="submit">Soumettre</button>
+      </div>
+</form>    <form class="new_piece_jointe" id="new_piece_jointe" enctype="multipart/form-data" action="/pieces_jointes" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="SXLbeK0H0QWfEpSCiqE+75m/R3dKnk2F/ZYLwmIdkaknnkKt1DmBS3QhHhaLje/RMWMy5xd68acdyO4x/DCCLg==">
+      <div class="card mb-2 ">
+        <h4> Jugement de divorce</h4>
+        <div>
+          <p></p>
+          <p class="etat-piece-jointe"></p>
+          <div class="card-relat document">
+              <input type="hidden" value="243" name="piece_jointe[piece_attendue_id]" id="piece_jointe_piece_attendue_id">
+              <div class="form__group">
+                <input multiple="multiple" type="file" name="piece_jointe[fichiers][]" id="piece_jointe_fichiers">
+              </div>
+              <span id="fichier_"></span>
+            <br>
+            <div class="image-piece-a-joindre lien-piece-jointe" id="image_">
+            </div>
+          </div>
+        </div>
+        <button class="soumettre d-none" type="submit">Soumettre</button>
+      </div>
+</form></div>
+
+<script>
+  $(document).ready(function() {
+    $('form').change(function() {
+      $(this).find(".soumettre").click()
+      $('#modal-chargement').css('display', 'block')
+    })
+  });
+</script>
+
+
+    <form action="/pieces_a_joindre" method="POST">
+      <input type="hidden" name="authenticity_token" value="SXLbeK0H0QWfEpSCiqE+75m/R3dKnk2F/ZYLwmIdkaknnkKt1DmBS3QhHhaLje/RMWMy5xd68acdyO4x/DCCLg==">
+      <div class="row mt-2">
+  <a class="button secondary bouton-retour" href="https://dossiersco-demo.scalingo.io/administration">
+    <img src="6_pieces_a_joindre_fichiers/precedent.png" alt="précédent" title="précédent"> Retour</a>
+  <a href="./7_validation.html">
+  <button type="submit" class="button boutton-enregistrer">Enregistrer et continuer  <img src="6_pieces_a_joindre_fichiers/suivant.png" alt="suivant" title="suivant"></button>
+  </a>
+</div>
+    </form>
+  </div>
+</section>
+
+<div class="modal__backdrop" id="modal-chargement">
+  <div class="modal">
+    Votre fichier est en cours d'import. Merci de patienter
+  </div>
+</div>
+
+<div class="modal__backdrop" id="modal-pieces-jointes">
+  <div class="modal modal-piece-jointe">
+    <div class="row mb-2">
+      <h5 class="modal-title" id="titre-modal-pj"></h5>
+      <button type="button" class="button-outline secondary fermer-modal hide-on-mobile" aria-label="Close">
+        Fermer
+      </button>
+    </div>
+    <div class="modal-body mb-2" id="affichage-doc">
+      <!-- Zone d'affichage du document -->
+    </div>
+    <div class="modal-footer justify-content-between">
+      <button type="button" class="button secondary rotation hide-on-mobile" data-degres="-90">Tourner <i class="fas fa-undo"></i></button>
+      <button type="button" class="button secondary rotation hide-on-mobile" data-degres="90">Tourner <i class="fas fa-redo"></i></button>
+      <button type="button" class="button-outline secondary fermer-modal ml-1" data-dismiss="modal">Fermer</button>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function () {
+    $('.lien-piece-jointe').click(function() {
+      let url = $(this).data('url');
+      let ext = $(this).data('ext');
+      let nom = $(this).data('nom');
+
+      $('#titre-modal-pj').html(nom)
+      if (ext === 'pdf') {
+        $('#affichage-doc').html("<iframe id='iframe-piece-jointe' src='" + url + "' ></iframe>")
+      }
+      else {
+        $('#affichage-doc').html("<img id='iframe-piece-jointe' src='" + url + "' style='height: 100%'>")
+      }
+      $('#modal-pieces-jointes').css('display', 'block')
+    });
+
+    let rotation = 0
+    $('.rotation').click(function() {
+        degres = $(this).data('degres')
+        let img = $('#affichage-doc img')
+        let scale = img.height() / img.width()
+        rotation = (rotation + degres) % 360
+
+        if ((rotation % 360) === 0) {
+          reset_rotation();
+        }
+        else {
+          let transform = 'rotate('+rotation+'deg)'
+          transform += (rotation % 180) === 0 ? '' : ' scale('+scale+') translate(0px,'+scale*img.height()/2+'px)'
+          img.css('transform', transform);
+        }
+     })
+
+    $('.fermer-modal').click(function() {
+      $('#modal-pieces-jointes').css('display', 'none')
+      reset_rotation()
+    })
+    function reset_rotation() {
+      rotation = 0;
+      $('#affichage-doc img').css('transform', 'none');
+    }
+  })
+</script>
+
+<script>
+  $(document).ready(function() {
+    $('input[type=file]')[0].focus();
+  });
+</script>
+
+
+  </main>
+
+
+
+
+<footer class="footer" role="contentinfo">
+</footer>
+
+
+
+</body></html>

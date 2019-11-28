@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>DossierSCO : l’inscription au collège</title>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="Rbx9aEQ73p4bzYHI4uGQraqAdymkSBa1+mhpYjqvEO0rUOS9PQWO0PD+C1zjzUGTAlwCufmsqpcaNoyRpIIDag==">
+  
+
+  <link rel="stylesheet" media="all" href="./application.css" data-turbolinks-track="reload">
+  <link rel="stylesheet" media="all" href="./famille.css" data-turbolinks-track="reload">
+
+    <script src="./application.js" data-turbolinks-track="reload"></script>
+</head>
+<body>
+
+  <header class="navbar" role="navigation">
+    <div class="navbar__container">
+      <a class="navbar__home" href="https://dossiersco-demo.scalingo.io/accueil">
+        <img class="navbar__logo" src="2_accueil/republique_francaise.svg" alt="logo Dossiersco">
+        <span class="navbar__domain">DossierSCO.fr</span>
+      </a>
+      <ul class="nav__links">
+          <li class="nav__item">
+            <a href="https://dossiersco-demo.scalingo.io/deconnexion">Se déconnecter</a>
+      </li></ul>
+    </div>
+  </header>
+
+  <main role="main" class="container  mt-4">
+
+  <nav class="mt-1">
+    <div class="arrow-steps clearfix">
+
+        <a class="step step step-enabled current" href="./2_accueil.html">
+          <span>Accueil</span>
+        </a>
+        <a class="step step step-disabled" href="#">
+          <span>Élève</span>
+        </a>
+        <a class="step step step-disabled" href="#">
+          <span>Famillle</span>
+        </a>
+        <a class="step step step-disabled" href="#">
+          <span>Administration</span>
+        </a>
+        <a class="step step step-disabled" href="#">
+          <span>Pièces à joindre</span>
+        </a>
+        <a class="step step step-disabled" href="#">
+          <span>Validation</span>
+        </a>
+
+    </div>
+  </nav>
+
+  <section class="section">
+  <div class="container">
+    <h1 class="separation">Collège Établissement de démo</h1>
+
+    <p>Pour réinscrire votre enfant
+    <strong>
+      Clémence Paul
+    </strong>
+    au collège
+    <strong id="etablissement">
+      Établissement de démo.
+    </strong>
+    </p>
+
+    <p>Veuillez vous munir des pièces administratives suivantes :</p>
+    <ul>
+    </ul>
+    <p>et mettre à jour vos coordonnées sur ce site avant le <strong id="date-limite"></strong>.</p>
+
+
+    <div class="text-center">
+      <form action="./3_eleve.html" method="get">
+
+        <input type="hidden" name="authenticity_token" value="Rbx9aEQ73p4bzYHI4uGQraqAdymkSBa1+mhpYjqvEO0rUOS9PQWO0PD+C1zjzUGTAlwCufmsqpcaNoyRpIIDag==">
+        <button type="submit" class="button boutton-enregistrer mt-2">Commencer l’inscription</button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+
+
+
+<footer class="footer" role="contentinfo">
+</footer>
+
+
+
+
+</body></html>
