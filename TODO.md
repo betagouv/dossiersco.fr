@@ -1,19 +1,23 @@
 
-
-Pour le ministère
-
-- Ajouter le document protocole d'évaluation de la 2eme saison au site dossiersco.fr (Attention à supprimer la vidéo non public du document)
 - Finaliser la maquette du parcours famille :
-	- ajouter les pages manquantes (accueil, élève, famille, administratif, pièces jointes, validation)
-	- retirer piwik
-	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de la page
-	- revoir le lien sur la marianne dans chaque page pour qu'il redirige vers `/`
-	- bloquer le lien vers le parcours agent
-
-Pour l'équipe
-
+  - supprimer l'obligation de saisir (et documenter que cette obligation existait et pourquoi) dans la page de connexion
+	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de l'accueil
+	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de l'élève
+	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de la famille
+	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de l'administration
+	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation pièce à joindre
+	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation validation
+	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation confirmation
+  - traiter le bouton de deconnexion
+  - traiter les liens de la barre de navigation (accueil, élève, famille, administration, pièce à joindre, validation)
+  - traiter l'upload des pièces à joindre
+  - traiter les liens « modifier » de la page validation
 - Supprimer les données du postgres
-- Supprimer les fichiers du S3 amazon
 - Supprimer les serveurs scalingo
+- supprimer le compte sentry
+- supprimer le compte drift
+- revoir le lien dossierco.beta.gouv.fr pour le faire pointer sur le github-pages dossiersco.fr
+- rediriger les pages dossiersco.fr vers dossiersco.beta.gouv.fr
 - Trier le Keybase (certaines choses pourrait avoir leur place dans le documentation du site statique, le reste est sans doute à supprimer)
+
 
