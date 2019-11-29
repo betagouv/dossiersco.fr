@@ -10,7 +10,6 @@
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation confirmation
   - traiter les liens de la barre de navigation (accueil, élève, famille, administration, pièce à joindre, validation)
   - traiter l'upload des pièces à joindre
-  - traiter les liens « modifier » de la page validation
 - Supprimer les données du postgres
 - Supprimer les serveurs scalingo
 - supprimer le compte sentry
