@@ -8,7 +8,6 @@
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation pièce à joindre
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation validation
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation confirmation
-  - traiter le bouton de deconnexion
   - traiter les liens de la barre de navigation (accueil, élève, famille, administration, pièce à joindre, validation)
   - traiter l'upload des pièces à joindre
   - traiter les liens « modifier » de la page validation
