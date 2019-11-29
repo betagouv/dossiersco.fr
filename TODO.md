@@ -1,6 +1,5 @@
 
 - Finaliser la maquette du parcours famille :
-  - supprimer l'obligation de saisir (et documenter que cette obligation existait et pourquoi) dans la page de connexion
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de l'accueil
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de l'élève
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de la famille

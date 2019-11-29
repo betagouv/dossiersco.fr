@@ -46,9 +46,9 @@
 
     <div class="form__group">
       <label class="" for="jour" id="label_date">Date de naissance de l'élève</label>
-      <input name="jour" type="number" id="date_jour" min="1" maxlength="2" placeholder="JJ" style="width:25%;" max="31" required="">
-      <input name="mois" type="number" id="date_mois" min="1" maxlength="2" placeholder="MM" style="width:25%;" max="12" required="">
-      <input name="annee" type="number" id="date_annee" min="2000" maxlength="4" placeholder="AAAA" style="width: 48%;" max="2018" required="">
+      <input name="jour" type="number" id="date_jour" min="1" maxlength="2" placeholder="JJ" style="width:25%;" max="31">
+      <input name="mois" type="number" id="date_mois" min="1" maxlength="2" placeholder="MM" style="width:25%;" max="12">
+      <input name="annee" type="number" id="date_annee" min="2000" maxlength="4" placeholder="AAAA" style="width: 48%;" max="2018">
     </div>
 
     <div class="form__group text-center">
@@ -73,6 +73,7 @@
     <p>Pour un plus grand nombre d'utilisateur, il était prévu d'envoyer un code d'activation par sms ou email, notamment pour pouvoir différencier les représentants légaux.</p>
     <p>La date a été découpée en trois champs jour/mois/années, plutôt que d'utiliser un champs date. La raison : sur mobile la sélection d'une année loin dans le passé était difficile pour des personnes non expertes.</p>
     <p>Le mieux serait de positionner l'année du sélecteur de date dans une fourchette avec une date possitionnée au milieu.</p>
+    <p>Les champs sont ici facultatif, mais en production, c'est une bonne chose de les rendre obligatoire pour éviter d'envoyer le formulaire vers le serveur alors qu'il n'y a aucune valeur saisie.</p>
   </section>
 </footer>
 
