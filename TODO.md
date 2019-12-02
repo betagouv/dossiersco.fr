@@ -1,6 +1,5 @@
 
 - Finaliser la maquette du parcours famille :
-	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de l'accueil
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de l'élève
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de la famille
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de l'administration
