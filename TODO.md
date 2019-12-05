@@ -10,5 +10,4 @@
 - Supprimer les serveurs scalingo
 - revoir le lien dossierco.beta.gouv.fr pour le faire pointer sur le github-pages dossiersco.fr
 - rediriger les pages dossiersco.fr vers dossiersco.beta.gouv.fr
-- Trier le Keybase (certaines choses pourrait avoir leur place dans le documentation du site statique, le reste est sans doute à supprimer)
 
