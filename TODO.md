@@ -5,7 +5,6 @@
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation de l'administration
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation pièce à joindre
 	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation validation
-	- documenter dans le footer (à la place des liens) les choix et discussion autour de l'organisation confirmation
 - Supprimer les données du postgres
 - Supprimer les serveurs scalingo
 - revoir le lien dossierco.beta.gouv.fr pour le faire pointer sur le github-pages dossiersco.fr
